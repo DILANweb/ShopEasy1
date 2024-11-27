@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">ShopEasy</h1>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Hogar</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#products">Cocina</a></li>
+                        <li><a href="#products">Sala</a></li>
+                        <li><a href="#products">Dormitorio</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="cart-icon">
+                🛒 <span id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h2>Bienvenido a <span>ShopEasy</span></h2>
+            <p>Encuentra todo lo que necesitas, al mejor precio.</p>
+            <a href="#products" class="btn">Explorar Productos</a>
+        </section>
+
+        <section id="products" class="products">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Encuentra algo perfecto para cada espacio de tu hogar.</p>
+            <div class="product-list">
+                <!-- Product Cards -->
+                <div class="product-card" data-name="Silla Moderna" data-price="45.99">
+                    <img src="Silla.jpg" alt="Silla Moderna"  class="Imagenes">
+                    <h3>Silla Moderna</h3>
+                    <p>$45.99</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Mesa de Centro" data-price="89.99">
+                    <img src="Mesa.webp" alt="Mesa de Centro" class="Imagenes">
+                    <h3>Mesa de Centro</h3>
+                    <p>$89.99</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="lampara.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Lámpara Decorativa</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Nevera.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Nevera</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Almohada.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Almohada</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Cartera.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Cartera</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Billetera.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Billetera</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="PC.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Pc Gamer</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Disco.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Disco SSD</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Base.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Base de Cara</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Labial.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Labial</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Estuche.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Estuche</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Perfume.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Perfume</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Iphone.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Iphone XR</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Alfombra.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Alfombra</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Mochila.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Mochila</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Cargardor.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Cargador de Iphone</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <div class="product-card" data-name="Lámpara Decorativa" data-price="30.00">
+                    <img src="Iphone16.jpg" alt="Lámpara Decorativa" class="Imagenes">
+                    <h3>Iphone 16</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+                <!-- More products -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En ShopEasy nos dedicamos a ofrecer los mejores productos con un diseño intuitivo y experiencia excepcional.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas? Escríbenos a <a href="egscorp@hotmail.com">egscorp@hotmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ShopEasy. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
